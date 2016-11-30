@@ -8,7 +8,7 @@
 
 Product.delete_all
 
-Product.create(
+Product.create!(
     title: 'programming rubby',
     description: "Ruby the best exciting language",
     image_url: "ruby.jpg",
@@ -27,7 +27,7 @@ Product.create(
 Product.create(
     title: 'programming javascript',
     description: "JS is the best exciting frontend language",
-    image_url: "JS.jpg",
+    image_url: "js.jpg",
     price: 20.34
     )
     
